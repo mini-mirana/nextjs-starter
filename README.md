@@ -1,67 +1,38 @@
-# Profile Widget
-
-A widget that shows the current progress of the profile creation of the user. The user should be able to see the missing tasks of a specific area and be able to mark them as done.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-These instructions will get you a copy of the client up and running on your local machine for development and testing purposes.
+First, run the development server:
 
-### Prerequisites
-
-Installing Yarn 1.x is pretty straightforward using the installer package available from the [Yarn website](https://yarnpkg.com/getting-started/install).
-
-This uses [Next.js](https://nextjs.org/) which will be installed when running `yarn install`. See configuration section below.
-
-### Configuring your project
-
-- Install requirements
-
-```
-yarn install
-```
-
-- Run server
-
-```
+```bash
+npm run dev
+# or
 yarn dev
+# or
+pnpm dev
 ```
 
-This will run the application on `http://localhost:3000`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Testing the project
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-The folder \_\_tests\_\_ in the root directory has all the code to be able to test the project.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-### Running test
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-#### Component testing
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Component testing is defined as a software testing type, in which the testing is performed on each individual component separately without integrating with other components.
+## Learn More
 
-```
-yarn test
-```
+To learn more about Next.js, take a look at the following resources:
 
-it uses snapshot testing, to update the snapshot you may use the below command
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```
-test:u
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-#### E2E testing
+## Deploy on Vercel
 
-End To End Testing is a software testing method that validates entire software from starting to the end along with its integration with external interfaces.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-```
-yarn playwright install
-```
-
-```
-yarn test:e2e
-```
-
-it uses snapshot testing, to update the snapshot you may use the below command
-
-```
-test:ue2e
-```
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
